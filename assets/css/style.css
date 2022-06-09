@@ -8,6 +8,15 @@
 .mb-90{
     margin-bottom: 90px;
 }
+.w-100{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
 /*==================== header css ==================== */
 header{
     padding: 60px 0 105px;
@@ -92,4 +101,78 @@ header .navbar-right a{
     font-size: 16px;
     color: #898989;
     margin: 0;
+}
+/* ==================== footer section css ====================  */
+.footer{
+    padding: 100px 0 140px;
+    background-color: #010101;
+}
+.footer .heading-pri{
+    color: #fcdb00;
+    font-weight: lighter;
+}
+.footer .heading-sec{
+    color: #898989;
+    margin-bottom: 45px;
+}
+.contactForm{
+    margin-bottom: 80px;
+}
+.submit{
+    background-color: #fcdb00;
+    border: 1px solid #fcdb00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #010101;
+    transition: all 0.3s;
+}
+.submit:hover{
+    background-color: #010101;
+    color: #fcdb00;
+}
+.socialLinks li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.socialLinks i{
+    font-size: 40px;
+    color: #fcdb00;
+}
+.footerlinks li{
+    text-transform: capitalize;
+}
+.footerlinks li, .footerlinks li a{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+@media all and (max-width:768px) {
+    .inspire {
+        padding-top: 0;
+    }
+    .ipadImg {
+        margin: 40px 0 0 0;
+    }
+    .featureHeading {
+        padding: 0 5px;
+        margin-bottom: 40px;
+    }
+    .footer .heading-sec {
+        color: #898989;
+        margin-bottom: 30px;
+    }
+    .contactForm {
+        margin-bottom: 40px;
+    }
+    header .navbar-default .navbar-toggle{
+        background-color: #fcdb00 !important;
+    }
+    header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    header .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+    }
 }
