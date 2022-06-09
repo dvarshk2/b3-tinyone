@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    line-height: 1.5;
+}
+/* ==================== Helper CSS ==================== */
+.mb-90{
+    margin-bottom: 90px;
+}
+/*==================== header css ==================== */
+header{
+    padding: 60px 0 105px;
+    background-color: #fcdb00;
+}
+header .navbar-default {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 70px;
+}
+header a.navbar-brand {
+    padding: 0;
+}
+header .navbar-right li{
+    margin-left: 50px;
+}
+header .navbar-right a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #010101 !important;
+    text-transform: capitalize;
+}
+.ipadImg {
+    margin-left: 8%;
+}
+.inspire{
+    padding-top: 75px;
+}
+.heading-pri{
+    font-size: 32px;
+    color: #010101;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.heading-sec{
+    font-size: 20px;
+    color: #313841;
+    margin-bottom: 25px;
+}
+.para{
+    font-size: 16px;
+    color: #555555;
+    text-align: start;
+    margin-bottom: 40px;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    margin-right: 35px;
+}
+.links i{
+    font-size: 40px;
+    color: #010101;
+}
+
+/*==================== Feature section css ====================  */
+.features{
+    padding: 110px 0 80px;
+}
+.featureHeading{
+    padding: 0 35px;
+    margin-bottom: 90px;
+}
+.myThumbnail{
+    margin-bottom: 80px;
+}
+.myThumbnail i{
+    font-size: 45px;
+    color: #010101;
+}
+.thumbInfo h3{
+    font-size: 22px;
+    color: #010101;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+}
+.thumbInfo p{
+    font-size: 16px;
+    color: #898989;
+    margin: 0;
+}
